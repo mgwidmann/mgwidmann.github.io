@@ -1,0 +1,291 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://mgwidmann.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+# baseurl: /
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Matt Widmann"
+title: "Matt Widmann"
+description: "Blog and website of Matt Widmann, blogging mainly for tech. Opinions expressed are mine."
+keywords: "widmann, matt, mgwidmann, elixir, react, graphql, absinthe, ecto, react-native, react native, ruby, rails"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+background-img: "../img/keyboard.jpeg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: False # Shuffle the lines.
+loop: False
+loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 1000
+delete-delay: 3000
+lines: # You can add HTML Tags in the Text
+  - text: "Elixir enthusiast."
+  - text: "GraphQL believer."
+  - text: "React and Redux developer."
+  - text: "Always full stack."
+  - text: "Problem solver."
+
+me-img: "/img/matt-widmann.png"
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: False
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+# disqus-shortname: "panossakkos"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/weddingwire.png"
+    image-link: "https://www.weddingwire.com/"
+    heading: "October 2016 - Today"
+    subheading: "Technical Lead"
+    description: "Promoted to Technical Lead"
+    more: "Matt was promoted to a lead because it was recognized that he knew how to get things done efficiently and with good quality. It also helped
+    that the lead on his team left to seek other opportunities. After almost a full year performing the lead role, the teams were consolidated and Matt
+    decided to be the one to step down because he preferred being closer to the technology. Matt is among one of the highest contributors at WeddingWire
+    and certainly has been the only one to constantly challenge the status quo and push the limits of what others believe is possible."
+  - image: "/img/timeline/weddingwire.png"
+    image-link: "https://www.weddingwire.com/"
+    heading: "November 2014 - October 2016"
+    subheading: "Senior Developer"
+    description: "Ruby on Rails Monolith using MySQL"
+    more: "WeddingWire's monolith Rails application is by far the largest codebase Matt has ever worked in (about 60k LOC) in addition to the
+    legacy Java application. At WeddingWire Matt found the work environment he'd really been seeking with a rich culture and young atmosphere.
+    Throughout Matt's time at WeddingWire, he has been slowly pushing Elixir knowledge in hopes that the leadership sees the value in using it
+    over the status quo Rails monolith - that has not been an easy endeavor.
+    <br/><br/>
+    Throughout the first year, Matt and a team of 3 other developers worked on a side project written in Angular 1, using a Rails API backend
+    building a WYSIWYG website editing tool. The project was unfortunately shut down due to an ever increasing MVP scope that made it near impossible
+    to compete with other companies with significantly larger development teams.
+    <br/><br/>
+    Matt's second biggest project was to create a messaging system for the user's to communicate in real time. Matt and his team did a 2-week 
+    prototype (unfortunately Matt was the only one touching the Elixir code) using Phoenix channels. The team however had zero Elixir experience,
+    and it was a high priority feature with little time to learn something new. After doing some initial (unimpressive) performance testing against 
+    ActionCable (which was in a beta state at the time) it was decided to use the Rails monolith stack and pay Pusher instead for the real time layer.
+    This project was also the first in React for Matt (Redux came later).
+    <br/><br/>
+    After several iterations and a few smaller projects, it came time to do another real time chat application, a different one. Instead of between users, the
+    company wanted a chat concierge system that would provide rich features to our staff. One of the key features required presence information to know
+    which employee was online (and how many users they were chatting with). Finally Phoenix Presence won the day. In the meantime while we were building,
+    the team used a 3rd party service to start gathering some initial numbers. By the time we were about 60% done, the team got some bad news that the numbers
+    were not looking good and the project was cancelled. It was later figured out that some of the data was incorrectly gathered and the numbers actually looked
+    on target to what we were expecting, however by that time the team's priority had already shifted and it has not since returned. The Phoenix application
+    never made it to production 😭"
+  - image: "/img/timeline/caci.jpg"
+    image-link: "http://www.caci.com/"
+    heading: "June 2013 - November 2014"
+    subheading: "Senior Developer"
+    description: "Promoted to Senior Developer (CACI acquired Six3Systems)"
+    more: "In his last year there, [CACI acquired Six3Systems](http://www.caci.com/announcement/2014/Six3.shtml) and things begun 
+    to change slowly. Matt, having had his TS/SCI pushed through because he was the best suited to debug any production issues,
+    had decided that the government contracting world was not quite for him. His interested in the open source community had begun
+    to grow as he dabbled in things like JRuby, Scala and the beginnings of what would become what Elixir & Phoenix are today. Matt decided 
+    it was time to move on and hoped that the commercial industry would be a better work environment."
+  - image: "/img/timeline/six3systems.png"
+    image-link: "http://www.caci.com/"
+    heading: "April 2012 - June 2013"
+    subheading: "Associate Developer"
+    description: "Ruby on Rails / Node.js using MongoDB in SOA architecture"
+    more: "Even only having a little bit of personal knowledge using Rails, Matt was hired onto a DOD government project that 
+    wanted to utilize Rails but had no one with any expertise. Matt did a mixture of SOA services and direct data access to
+    MongoDB. The team had begun to use and like Angular. For no strong reason, the system architect had Matt and his co-workers
+    build the next project using Node.js and Angular with direct access to MongoDB (aka the MEAN stack). 
+    <br/><br/>
+    It became clear to everyone after his first year that his contributions helped to meet several of the government
+    deadlines and overall increased the success of the project. Matt daringly asked for a $20,000 (25%) raise and the VP (overseeing
+    the contract he was on) backed him up and said he deserved it."
+  - image: "/img/timeline/sra.gif"
+    image-link: "https://www.srainternational.org/"
+    heading: "May 2010 - April 2012"
+    subheading: "Associate Developer"
+    description: "Java J2EE using OracleDB"
+    more: "Worked on the NPDB/HIPDB medical systems reporting program which was responsible for performing fuzzy matching 
+    between queried data and stored reported data. The system was already a 10 year old Java J2EE project when Matt joined 
+    and did not utilize any sort of frameworks. Instead it had built out everything hand rolled itself, as was the norm at 
+    the time when the project began. This layed a good foundation for Matt while he learned about how things like their fuzzy
+    matching system or database connection pooling worked since all the code was hand rolled with zero dependencies.
+    <br/><br/>
+    After working there for a few years, Matt began to become interested in newer technologies and quickly realized that a
+    career on a 10 year old Java project wasn't going to further increase his capabilities and help him to grow. On his own
+    time, he picked up a Ruby book and taught himself Rails."
+  - image: "/img/timeline/georgemason.png"
+    image-link: "https://www2.gmu.edu/"
+    heading: "May 2010"
+    subheading: "Graduated"
+    description: "Bachelors of Science in Computer Science"
+    more: "Matt graduated George Mason University with a 3.2 GPA. He always found his programming classes to be the ones he both
+    liked the most and had the most success at. George Mason's Computer Science program helped Matt learn the fundamentals necessary
+    behind what it would take to excel in Software Development."
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "mgwidmann@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+# author_blurb: "Matt Widmann is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+# author_blurb_image: "/img/author.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "twitter"
+    url: "https://twitter.com/mgwidmann"
+  - title: "github"
+    url: "https://github.com/mgwidmann"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+# keybase-username: johnsmith
+keybase-in-social: False
+keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Experience: 'experience'
+  'Open Source': 'opensource'
+  # Skills: 'skills'
+  # Blog: 'latest-post'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
