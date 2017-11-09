@@ -39,7 +39,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-background-img: "../img/keyboard.jpeg"
+background-img: "../img/keyboard.jpg"
 
 ##############################
 # Dynamic Text on the Header #
