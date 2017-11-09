@@ -145,7 +145,7 @@ events:
     image-link: "https://www.weddingwire.com/"
     heading: "November 2014 - October 2016"
     subheading: "Senior Developer"
-    description: "Ruby on Rails Monolith using MySQL"
+    description: "Ruby on Rails Monolith on MySQL"
     more: "WeddingWire's monolith Rails application is by far the largest codebase Matt has ever worked in (about 60k LOC) in addition to the
     legacy Java application. At WeddingWire Matt found the work environment he'd really been seeking with a rich culture and young atmosphere.
     Throughout Matt's time at WeddingWire, he has been slowly pushing Elixir knowledge in hopes that the leadership sees the value in using it

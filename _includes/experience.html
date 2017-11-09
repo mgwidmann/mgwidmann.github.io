@@ -16,7 +16,7 @@
             timeline-inverted
           {% endif %}
           {% endcapture %}
-          {% capture iconside %}
+          {% capture moreside %}
           {% if loopindex == 0 %}
             pull-left
           {% else %}
@@ -36,9 +36,9 @@
                 <div class="subheading text-muted">{{ event.subheading | markdownify }}</div>
               </div>
               <div class="timeline-body">
-                <i class="fa fa-info-circle {{ iconside }}"></i>
                 {{ event.description | markdownify }}
-                <div class="timeline-more">
+                <a href="javascript:void(0);" class="more-link {{ moreside }}">More</a>
+                <div class="timeline-more {{ moreside }}">
                   {{ event.more | markdownify }}
                 </div>
               </div>

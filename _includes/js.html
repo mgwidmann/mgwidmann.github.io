@@ -142,10 +142,14 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 <script>
   $(document).ready(function() {
-    $('.fa-info-circle').on('click', function() {
+    $('.more-link').on('click', function() {
       var $thisMore = $(this).siblings('.timeline-more');
-      $thisMore.slideToggle();
-      $('.timeline-more').not($thisMore).slideUp();
+      $thisMore.slideToggle()
+      $(this).text($(this).text() == "More" ? "Less" : "More");
+      $('.timeline-more').not($thisMore).slideUp().siblings('.more-link').text("More");
+      $('html, body').animate({
+        scrollTop: $thisMore.offset().top - ($(window).height() / 2)
+      }, 1000);
     });
   });
 </script>
