@@ -48,9 +48,9 @@ background-img: "../img/keyboard.jpg"
 dynamic-typing: True
 shuffle: False # Shuffle the lines.
 loop: False
-loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-start-delay: 1000
+start-delay: 2000
 delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "Elixir enthusiast."
@@ -244,6 +244,8 @@ social:
     url: "https://twitter.com/mgwidmann"
   - title: "github"
     url: "https://github.com/mgwidmann"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/matt-widmann-99327325/"
 
 ############
 # 404 page #
