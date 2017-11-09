@@ -156,10 +156,9 @@ events:
     to compete with other companies with significantly larger development teams.
     <br/><br/>
     Matt's second biggest project was to create a messaging system for the user's to communicate in real time. Matt and his team did a 2-week 
-    prototype (unfortunately Matt was the only one touching the Elixir code) using Phoenix channels. The team however had zero Elixir experience,
-    and it was a high priority feature with little time to learn something new. After doing some initial (unimpressive) performance testing against 
-    ActionCable (which was in a beta state at the time) it was decided to use the Rails monolith stack and pay Pusher instead for the real time layer.
-    This project was also the first in React for Matt (Redux came later).
+    prototype using Phoenix channels. The team however had zero Elixir experience, and it was a high priority feature with little time to learn something 
+    new. After doing some initial (unimpressive) performance testing against ActionCable (which was in a beta state at the time) it was decided to use the 
+    Rails monolith stack and pay Pusher instead for the real time layer. This project was also the first in React for Matt (Redux came later).
     <br/><br/>
     After several iterations and a few smaller projects, it came time to do another real time chat application, a different one. Instead of between users, the
     company wanted a chat concierge system that would provide rich features to our staff. One of the key features required presence information to know
@@ -167,7 +166,7 @@ events:
     the team used a 3rd party service to start gathering some initial numbers. By the time we were about 60% done, the team got some bad news that the numbers
     were not looking good and the project was cancelled. It was later figured out that some of the data was incorrectly gathered and the numbers actually looked
     on target to what we were expecting, however by that time the team's priority had already shifted and it has not since returned. The Phoenix application
-    never made it to production 😭"
+    never made it to production. 😭"
   - image: "/img/timeline/caci.jpg"
     image-link: "http://www.caci.com/"
     heading: "June 2013 - November 2014"
