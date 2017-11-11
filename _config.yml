@@ -137,28 +137,28 @@ events:
     heading: "October 2016 - Today"
     subheading: "Technical Lead"
     description: "Promoted to Technical Lead"
-    more: "Matt was promoted to a lead because it was recognized that he knew how to get things done efficiently and with good quality. It also helped
-    that the lead on his team left to seek other opportunities. After almost a full year performing the lead role, the teams were consolidated and Matt
-    decided to be the one to step down because he preferred being closer to the technology. Matt is among one of the highest contributors at WeddingWire
+    more: "I was promoted to a lead because it was recognized that I knew how to get things done efficiently and with good quality. It also helped
+    that the lead on my team left to seek other opportunities. After almost a full year performing the lead role, the teams were consolidated and I
+    decided to be the one to step down because I preferred being closer to the technology. I am among one of the highest contributors at WeddingWire
     and certainly has been the only one to constantly challenge the status quo and push the limits of what others believe is possible."
   - image: "/img/timeline/weddingwire.png"
     image-link: "https://www.weddingwire.com/"
     heading: "November 2014 - October 2016"
     subheading: "Senior Developer"
     description: "Ruby on Rails Monolith on MySQL"
-    more: "WeddingWire's monolith Rails application is by far the largest codebase Matt has ever worked in (about 60k LOC) in addition to the
-    legacy Java application. At WeddingWire Matt found the work environment he'd really been seeking with a rich culture and young atmosphere.
-    Throughout Matt's time at WeddingWire, he has been slowly pushing Elixir knowledge in hopes that the leadership sees the value in using it
-    over the status quo Rails monolith - that has not been an easy endeavor.
+    more: "WeddingWire's monolith Rails application is by far the largest codebase I have ever worked in (about 60k LOC). At WeddingWire I 
+    found the work environment I'd really been seeking with a rich culture and young atmosphere. Throughout my time at WeddingWire, I have 
+    been slowly pushing Elixir knowledge in hopes that the leadership sees the value in using it over the status quo Rails monolith - that 
+    has not been an easy endeavor.
     <br/><br/>
-    Throughout the first year, Matt and a team of 3 other developers worked on a side project written in Angular 1, using a Rails API backend
+    Throughout the first year, a team of 3 other developers and myself worked on a side project written in Angular 1, using a Rails API backend
     building a WYSIWYG website editing tool. The project was unfortunately shut down due to an ever increasing MVP scope that made it near impossible
     to compete with other companies with significantly larger development teams.
     <br/><br/>
-    Matt's second biggest project was to create a messaging system for the user's to communicate in real time. Matt and his team did a 2-week 
+    My second biggest project was to create a messaging system for the user's to communicate in real time. My team and I did a 2-week 
     prototype using Phoenix channels. The team however had zero Elixir experience, and it was a high priority feature with little time to learn something 
-    new. After doing some initial (unimpressive) performance testing against ActionCable (which was in a beta state at the time) it was decided to use the 
-    Rails monolith stack and pay Pusher instead for the real time layer. This project was also the first in React for Matt (Redux came later).
+    new. After doing some initial performance testing against ActionCable (which was in a beta state at the time) it was decided to use the 
+    Rails monolith stack and pay Pusher instead for the real time layer. This project was also the first in React for me (Redux came later).
     <br/><br/>
     After several iterations and a few smaller projects, it came time to do another real time chat application, a different one. Instead of between users, the
     company wanted a chat concierge system that would provide rich features to our staff. One of the key features required presence information to know
@@ -172,45 +172,45 @@ events:
     heading: "June 2013 - November 2014"
     subheading: "Senior Developer"
     description: "Promoted to Senior Developer (CACI acquired Six3Systems)"
-    more: "In his last year there, [CACI acquired Six3Systems](http://www.caci.com/announcement/2014/Six3.shtml) and things begun 
-    to change slowly. Matt, having had his TS/SCI pushed through because he was the best suited to debug any production issues,
-    had decided that the government contracting world was not quite for him. His interested in the open source community had begun
-    to grow as he dabbled in things like JRuby, Scala and the beginnings of what would become what Elixir & Phoenix are today. Matt decided 
+    more: "In my last year there, [CACI acquired Six3Systems](http://www.caci.com/announcement/2014/Six3.shtml) and things begun 
+    to change slowly. Having had my TS/SCI pushed through because I was the best suited to debug any production issues,
+    had decided that the government contracting world was not quite for me. My interest in the open source community had begun
+    to grow as I dabbled in things like JRuby, Scala and the beginnings of what would become what Elixir & Phoenix are today. I decided 
     it was time to move on and hoped that the commercial industry would be a better work environment."
   - image: "/img/timeline/six3systems.png"
     image-link: "http://www.caci.com/"
     heading: "April 2012 - June 2013"
     subheading: "Associate Developer"
     description: "Ruby on Rails / Node.js using MongoDB in SOA architecture"
-    more: "Even only having a little bit of personal knowledge using Rails, Matt was hired onto a DOD government project that 
-    wanted to utilize Rails but had no one with any expertise. Matt did a mixture of SOA services and direct data access to
-    MongoDB. The team had begun to use and like Angular. For no strong reason, the system architect had Matt and his co-workers
+    more: "Even only having a little bit of personal knowledge using Rails, I was hired onto a DOD government project that 
+    wanted to utilize Rails but had no one with any expertise. I did a mixture of SOA services and direct data access to
+    MongoDB. The team had begun to use and like Angular. For no strong reason, the system architect had us
     build the next project using Node.js and Angular with direct access to MongoDB (aka the MEAN stack). 
     <br/><br/>
-    It became clear to everyone after his first year that his contributions helped to meet several of the government
-    deadlines and overall increased the success of the project. Matt daringly asked for a $20,000 (25%) raise and the VP (overseeing
-    the contract he was on) backed him up and said he deserved it."
+    It became clear to everyone after my first year there that my contributions helped to meet several of the government
+    deadlines and overall increased the success of the project. I daringly asked for a $20,000 (25%) raise and the VP (overseeing
+    the contract I was on) backed me up and said I deserved it."
   - image: "/img/timeline/sra.gif"
     image-link: "https://www.srainternational.org/"
     heading: "May 2010 - April 2012"
     subheading: "Associate Developer"
     description: "Java J2EE using OracleDB"
     more: "Worked on the NPDB/HIPDB medical systems reporting program which was responsible for performing fuzzy matching 
-    between queried data and stored reported data. The system was already a 10 year old Java J2EE project when Matt joined 
+    between queried data and stored reported data. The system was already a 10 year old Java J2EE project when I joined 
     and did not utilize any sort of frameworks. Instead it had built out everything hand rolled itself, as was the norm at 
-    the time when the project began. This layed a good foundation for Matt while he learned about how things like their fuzzy
+    the time when the project began. This layed a good foundation for me while I learned about how things like their fuzzy
     matching system or database connection pooling worked since all the code was hand rolled with zero dependencies.
     <br/><br/>
-    After working there for a few years, Matt began to become interested in newer technologies and quickly realized that a
-    career on a 10 year old Java project wasn't going to further increase his capabilities and help him to grow. On his own
-    time, he picked up a Ruby book and taught himself Rails."
+    After working there for a few years, I began to become interested in newer technologies and quickly realized that a
+    career on a 10 year old Java project wasn't going to further increase my capabilities and help me to grow. On my own
+    time, I picked up a Ruby book and taught myself Rails."
   - image: "/img/timeline/georgemason.png"
     image-link: "https://www2.gmu.edu/"
     heading: "May 2010"
     subheading: "Graduated"
     description: "Bachelors of Science in Computer Science"
-    more: "Matt graduated George Mason University with a 3.2 GPA. He always found his programming classes to be the ones he both
-    liked the most and had the most success at. George Mason's Computer Science program helped Matt learn the fundamentals necessary
+    more: "I graduated George Mason University with a 3.2 GPA. I always found my programming classes to be the ones I both
+    liked the most and had the most success at. George Mason's Computer Science program helped me learn the fundamentals necessary
     behind what it would take to excel in Software Development."
 
 # First image of the Timeline
@@ -269,8 +269,8 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   Experience: 'experience'
+  Skills: 'skills'
   'Open Source': 'opensource'
-  # Skills: 'skills'
   # Blog: 'latest-post'
   Contact: 'contact'
 

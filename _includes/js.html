@@ -151,6 +151,21 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
         scrollTop: $thisMore.offset().top - ($(window).height() / 2)
       }, 1000);
     });
+
+    $window = $(window);
+    $skillbar = $('.skillbar');
+    $window.scroll(function() {
+      var top = $window.scrollTop();
+      var bottom = top + $window.height();
+      if ($skillbar.offset().top <= bottom && $skillbar.offset().top >= top) {
+        $skillbar.each(function () {
+          $(this).find('.skillbar-bar').animate({
+            width: $(this).attr('data-percent')
+          }, 6000);
+        });
+        $window.off('scroll');
+      }
+    });
   });
 </script>
 
